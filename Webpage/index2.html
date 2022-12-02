@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Cooking Club - Landing Page!</title>
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="menu">
+        <ul>
+          <li class="logo">
+            <img src="../Images/Home Page/cooking_club_logo.png" />
+          </li>
+          <li class="active"><a href="./index2.html">Home</a></li>
+          <li><a href="./Recipes.html">Recipes</a></li>
+          <li><a href="./contacts.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="banner">
+        <div class="text">
+          <h1>Our goal is to make your house the family holiday house!</h1>
+          <p>
+            <br />
+            Our Bio: “Since 1992, the Cooking Club has sought to provide a
+            community for those who view food as an art. All are welcome,
+            regardless of skill or cuisine. <br /><br />
+            In recent years, the club has grown to over a hundred newsletter
+            subscribers and more than 50 regulars at our weekly events.
+            <br /><br />
+            This website contains some of the Cooking Club’s essential content,
+            including contact information and even some of our original recipes.
+            Enjoy!”
+          </p>
+        </div>
+      </div>
+      <div class="home-picture">
+        <img src="../Images/Home Page/Home-Img.jpeg" />
+      </div>
+      <footer id="footer">
+        <div class="footer-container">
+          <div class="footer">
+            <div class="footer-heading footer-1">
+              <h1>Following us on our Social Media!</h1>
+              <ul class="fa-ul">
+                <li>
+                  <a href="https://twitter.com/"
+                    ><i class="fa fa-twitter fa-lg"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/"
+                    ><i class="fa fa-facebook fa-lg"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/"
+                    ><i class="fa fa-instagram fa-lg"></i
+                  ></a>
+                </li>
+                <li>
+                  <i
+                    class="fa fa-moon-o fa-lg"
+                    aria-hidden="true"
+                    onclick="Darkmode()"
+                  ></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      function Darkmode() {
+        var element = document.body;
+        element.classList.toggle("darkmode");
+      }
+    </script>
+  </body>
+</html>

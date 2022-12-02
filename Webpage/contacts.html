@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Cooking Club - Landing Page!</title>
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li class="logo">
+                    <img src="../Images/Home Page/cooking_club_logo.png" />
+                </li>
+                <li><a href="./index2.html">Home</a></li>
+                <li><a href="./Recipes.html">Recipes</a></li>
+                <li class="active"><a href="./contacts.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="card">
+            <img src="../Images/People Pics/img_avatar.png" style="width: 100%" />
+            <div class="card-container">
+                <h1>Owner</h1>
+                <p><br /><em>Owner of the Buisness</em><br /><br />owner@gmail.com</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/Images/People Pics/img_avatar2.jpg" style="width: 100%" />
+            <div class="card-container">
+                <h1>Sales Manager</h1>
+                <p><br /><em>Sales Manager</em><br /><br />sales@gmail.com</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/Images/People Pics/img_avatar3.webp" style="width: 100%" />
+            <div class="card-container">
+                <h1>Recipe Designer</h1>
+                <p><br /><em>Chef</em><br /><br />Chef@gmail.com</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/Images/People Pics/img_avatar4.png" style="width: 100%" />
+            <div class="card-container">
+                <h1>Media Manager</h1>
+                <p><br /><em>Media Manager</em><br /><br />media@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-1">
+                    <h1>Following us on our Social Media!</h1>
+                    <ul class="fa-ul">
+                        <li>
+                            <a href="https://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-lg"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-lg"></i></a>
+                        <li>
+                            <i class="fa fa-moon-o fa-lg" aria-hidden="true" onclick="Darkmode()"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script>
+        function Darkmode() {
+            var element = document.body;
+            element.classList.toggle("darkmode");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Cooking Club - Landing Page!</title>
+  <link rel="stylesheet" href="../style.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="menu">
+      <ul>
+        <li class="logo">
+          <img src="../Images/Home Page/cooking_club_logo.png" />
+        </li>
+        <li><a href="./index2.html">Home</a></li>
+        <li class="active"><a href="./Recipes.html">Recipes</a></li>
+        <li><a href="./contacts.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="card">
+      <img src="../Images/Recipes/instant-pot-mac-and-cheese-8.webp" style="width: 100%" />
+      <div class="card-container">
+        <h1>Instant Pot Mac n Cheese</h1>
+        <p>Ingediants:</p>
+        <ul>
+          <li>Macaroni</li>
+          <li>Salt</li>
+          <li>Heavy cream</li>
+          <li>Parmesan</li>
+          <li>Cheddar cheese</li>
+        </ul>
+        <i class="fa fa-cutlery" aria-hidden="true"></i>
+        <a href="https://themodernproper.com/instant-pot-mac-and-cheese" class="button">Try Me!</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../Images/Recipes/Crock-Pot-Chicken-Taco-Meat-6.webp" style="width: 100%" />
+      <div class="card-container">
+        <h1>Crock Pot Taco Meat</h1>
+        <p>Ingediants:</p>
+        <ul>
+          <li>Chicken Breast</li>
+          <li>Salsa</li>
+          <li>Taco Seasoning</li>
+        </ul>
+        <i class="fa fa-cutlery" aria-hidden="true"></i>
+        <a href="https://themodernproper.com/crock-pot-chicken-taco-meat" class="button">Try Me!</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../Images/Recipes/hoisin-glazed-pork-chops-9.webp" style="width: 100%" />
+      <div class="card-container">
+        <h1>Hoisin Glaszed Pork Chops</h1>
+        <p>Ingediants:</p>
+        <ul>
+          <li>Pork Chops</li>
+          <li>Salt</li>
+          <li>Sesame Oil</li>
+          <li>Ginger</li>
+          <li>Hoisin</li>
+          <li>Rice Vinegar</li>
+          <li>Water</li>
+        </ul>
+        <i class="fa fa-cutlery" aria-hidden="true"></i>
+        <a href="https://themodernproper.com/hoisin-glazed-pork-chops" class="button">Try Me!</a>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-heading footer-1">
+          <h1>Following us on our Social Media!</h1>
+          <ul class="fa-ul">
+            <li>
+              <a href="https://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-lg"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-lg"></i></a>
+            <li>
+              <i class="fa fa-moon-o fa-lg" aria-hidden="true" onclick="Darkmode()"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <script>
+    function Darkmode() {
+      var element = document.body;
+      element.classList.toggle("darkmode");
+    }
+  </script>
+</body>
+
+</html>
